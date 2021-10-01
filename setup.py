@@ -8,6 +8,6 @@ setup(
     packages=find_packages(exclude=['tests*']),
     # Needed for dependencies
     install_requires=['cookiecutter', 'click'],
-    version='0.2',
+    version='0.3',
     description='An example of a python package from pre-existing code',
 )

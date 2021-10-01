@@ -9,6 +9,7 @@ class DemoPackage:
         self.int_val = int_val
 
     def execute(self):
+        LOGGER.debug("Start loop")
         for idx in range(min(len(self.str_val), self.int_val)):
-            LOGGER.debug("str_val (%d) = %s", idx, self.str_val[:idx])
-        LOGGER.info("Wow that was anti-climatic")
+            LOGGER.info("str_val (%d) = %s", idx, self.str_val[:idx])
+        LOGGER.debug("Wow that was anti-climatic")
