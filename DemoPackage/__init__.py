@@ -1,1 +1,1 @@
-from demo_logic import DemoPackage
+from .demo_logic import *
