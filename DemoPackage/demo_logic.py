@@ -2,7 +2,7 @@ import logging
 LOGGER = logging.getLogger('DemoPackage')
 
 
-class DemoPackage:
+class DemoPackageObj:
     def __init__(self, str_val='None', int_val=0):
         LOGGER.debug("Init Demo Package")
         self.str_val = str_val
